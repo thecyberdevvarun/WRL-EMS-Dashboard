@@ -74,7 +74,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Attendance */}
         <Card className="shadow-sm">
-          <CardContent className="p-6 h-[320px]">
+          <CardContent className="p-6 h-80">
             <div className="flex items-center gap-2 mb-4">
               <CalendarCheck className="text-primary" />
               <h3 className="font-semibold">Attendance Overview</h3>
@@ -89,7 +89,7 @@ export default function Dashboard() {
 
         {/* Department Stats */}
         <Card className="shadow-sm">
-          <CardContent className="p-6 h-[320px]">
+          <CardContent className="p-6 h-80">
             <div className="flex items-center gap-2 mb-4">
               <TrendingUp className="text-primary" />
               <h3 className="font-semibold">Department Analytics</h3>
