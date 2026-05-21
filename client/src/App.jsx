@@ -1,15 +1,7 @@
-import { useState } from "react";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <section>
-        <h1 className="text-red-700">Hello</h1>
-      </section>
-    </>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
