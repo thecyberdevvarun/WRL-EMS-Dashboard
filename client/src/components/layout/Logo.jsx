@@ -1,10 +1,14 @@
-import { Building2 } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export default function Logo() {
   return (
     <div className="flex items-center gap-3">
-      <div className="bg-primary text-primary-foreground p-2 rounded-xl shadow-lg">
-        <Building2 className="w-6 h-6" />
+      <div className="w-30 h-30 rounded-xl overflow-hidden shadow-lg flex items-center justify-center">
+        <img
+          src={logo}
+          alt="WRL EMS Logo"
+          className="w-full h-full object-contain"
+        />
       </div>
 
       <div>

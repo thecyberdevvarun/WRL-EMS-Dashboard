@@ -53,13 +53,13 @@ export default function Dashboard() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <Card>
-          <CardContent className="p-6 h-[300px]">
+          <CardContent className="p-6 h-75">
             Attendance Analytics
           </CardContent>
         </Card>
 
         <Card>
-          <CardContent className="p-6 h-[300px]">
+          <CardContent className="p-6 h-75">
             Department Statistics
           </CardContent>
         </Card>
