@@ -16,18 +16,13 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
-
       <Route path="/signup" element={<Signup />} />
 
       <Route element={<DashboardLayout />}>
         <Route path="/dashboard" element={<Dashboard />} />
-
         <Route path="/employees" element={<Employees />} />
-
         <Route path="/attendance" element={<Attendance />} />
-
         <Route path="/payroll" element={<Payroll />} />
-
         <Route path="/settings" element={<Settings />} />
       </Route>
 
