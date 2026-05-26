@@ -13,11 +13,11 @@ export default function Logo() {
 
       <div>
         <h1 className="text-2xl font-bold tracking-tight">
-          WRL EMS
+          WRL HRMS
         </h1>
 
         <p className="text-xs text-muted-foreground">
-          Employee Management System
+          HR Management System
         </p>
       </div>
     </div>
